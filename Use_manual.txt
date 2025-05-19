@@ -1,0 +1,95 @@
+# ESI-EX-INI Logic Formula Solver
+
+A powerful tool for logical formula analysis and automated theorem proving using resolution.
+
+## Features
+
+- Create and save logical formulas in CNF (Conjunctive Normal Form)
+- Test existing formulas for satisfiability
+- View and manage your formula collection
+- User-friendly graphical interface
+- Real-time formula preview with proper logical notation
+
+## Installation
+
+1. Make sure you have the following files in your directory:
+   - `gui_solver.exe` (the main application)
+   - `logic_solver.exe` (the core solver engine)
+
+2. No additional installation is required - the application is ready to use.
+
+## How to Use
+
+### Main Menu
+
+The application starts with a main menu offering four options:
+
+1. **Create New Formula**
+   - Enter a name for your formula (without .cnf extension)
+   - Specify the number of clauses
+   - Add each clause one by one
+   - Clauses are automatically saved in CNF format
+
+2. **Test Existing Formula**
+   - View a list of all available .cnf files
+   - Select a formula to test
+   - View the results in a popup window
+
+3. **Show Available Formulas**
+   - Browse all your saved formulas
+   - Preview formula contents with proper logical notation
+   - Test selected formulas directly
+
+4. **Show Credits**
+   - View information about the developers
+
+### Creating a Formula
+
+1. Click "Create New Formula"
+2. Enter a name for your formula (letters, numbers, underscores, and hyphens only)
+3. Enter the number of clauses
+4. For each clause:
+   - Enter literals separated by spaces
+   - Use ! for negation (e.g., !P for NOT P)
+   - Example: `P !Q R` represents (P OR NOT Q OR R)
+5. The formula will be saved automatically in CNF format
+
+### Formula Syntax
+
+- Use capital letters for variables (e.g., P, Q, R)
+- Use ! for negation (e.g., !P for NOT P)
+- Separate literals with spaces
+- Each line represents a clause
+- Clauses are automatically connected with AND (^)
+- Literals within a clause are automatically connected with OR (V)
+
+Example:
+```
+P !Q R
+!P S
+T !U
+```
+This represents: (P V !Q V R) ^ (!P V S) ^ (T V !U)
+
+### Testing Formulas
+
+1. Click "Test Existing Formula" or "Show Available Formulas"
+2. Select a formula from the list
+3. Click "Test Selected Formula"
+4. View the results in the popup window
+
+## Tips
+
+- Use meaningful names for your formulas
+- Keep formulas organized in a logical structure
+- Use the preview feature to verify formula contents before testing
+- The solver will automatically convert formulas to CNF format
+
+## Credits
+
+Developed by:
+- LASFER MOHAMMED DJAWED
+- MOUSLIM ALI
+- HECHEHOUCHE ABOUBEKR
+
+Advanced Logic Project - ESI 2024 
