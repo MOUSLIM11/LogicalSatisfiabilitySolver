@@ -1,7 +1,7 @@
 # Logic Solver
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/yourusername/logic-solver/main/assets/logo.png" alt="Logic Solver Logo" width="200">
+  <img src="ESI_Logo.png" alt="Logic Solver Logo" width="200">
   <h3>Advanced Propositional Logic Solver with Resolution Refutation</h3>
   <p>Developed at École nationale Supérieure d'Informatique (ESI)</p>
   
