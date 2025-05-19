@@ -463,7 +463,7 @@ void ShowCredits(HWND hwnd) {
 
     // Names with white background
     HWND name1 = CreateWindow(
-        "STATIC", "LASFER MOHAMMED DJAWED",
+        "STATIC", "LASFER Mohammed Djawed",
         WS_VISIBLE | WS_CHILD | SS_CENTER | WS_BORDER,
         200, 210, 400, 40,
         hwnd, NULL,
@@ -471,7 +471,7 @@ void ShowCredits(HWND hwnd) {
     );
     
     HWND name2 = CreateWindow(
-        "STATIC", "MOUSLIM ALI",
+        "STATIC", "MOUSLIM Ali",
         WS_VISIBLE | WS_CHILD | SS_CENTER | WS_BORDER,
         200, 270, 400, 40,
         hwnd, NULL,
@@ -479,7 +479,7 @@ void ShowCredits(HWND hwnd) {
     );
     
     HWND name3 = CreateWindow(
-        "STATIC", "HECHEHOUCHE ABOUBEKR",
+        "STATIC", "HECHEHOUCHE Aboubakeur",
         WS_VISIBLE | WS_CHILD | SS_CENTER | WS_BORDER,
         200, 330, 400, 40,
         hwnd, NULL,
