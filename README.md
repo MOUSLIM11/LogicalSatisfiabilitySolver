@@ -1,13 +1,11 @@
 # Logic Solver
 
 <div align="center">
-  <img src="ESI_Logo.png" alt="Logic Solver Logo" width="200">
+  <img src="Pictures/ESI_Logo.png" alt="Logic Solver Logo" width="200">
   <h3>Advanced Propositional Logic Solver with Resolution Refutation</h3>
   <p>Developed at École nationale Supérieure d'Informatique (ESI)</p>
   
-  ![GitHub release (latest by date)](https://img.shields.io/github/v/release/yourusername/logic-solver)
-  ![License](https://img.shields.io/github/license/yourusername/logic-solver)
-  ![C Language](https://img.shields.io/badge/language-C-blue)
+
   
 </div>
 
@@ -16,7 +14,7 @@
 Logic Solver is a powerful tool designed for analyzing and verifying propositional logic formulas in Conjunctive Normal Form (CNF) using the resolution by refutation method introduced by J.A. Robinson in 1965. This project combines a robust resolution engine with an intuitive graphical user interface to provide both computational power and ease of use.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/yourusername/logic-solver/main/assets/screenshot.png" alt="Logic Solver Screenshot" width="600">
+  <img src="Pictures/schreenshot.png" alt="Logic Solver Screenshot" width="600">
 </div>
 
 ## ✨ Features
@@ -41,6 +39,7 @@ Logic Solver is a powerful tool designed for analyzing and verifying proposition
 2. Extract the ZIP file to your preferred location
 3. Ensure both `gui_solver.exe` and `logic_solver.exe` are in the same directory
 4. Run `gui_solver.exe` to start the application
+5. Use the input_generator.exe to run the program without the interface in case the gui doesn't work for you
 
 ## 📚 How to Use
 
@@ -144,46 +143,18 @@ P_31 P_32
 ```
 Result: `UNSATISFIABLE` (A triangle cannot be colored with 2 colors)
 
-## 🛠️ Project Structure
 
-```
-logic-solver/
-├── src/
-│   ├── gui_solver.c       # Source for the graphical interface
-│   ├── logic_solver.c     # Source for the resolution engine
-│   └── cnf_converter.c    # Source for the CNF conversion module
-├── include/
-│   ├── structures.h       # Data structures definitions
-│   ├── resolution.h       # Resolution algorithm declarations
-│   └── utils.h           # Utility functions
-├── examples/              # Example CNF files
-├── bin/                   # Compiled executables
-├── docs/                  # Documentation
-└── tests/                 # Test cases
-```
 
-## 📈 Applications
-
-Logic Solver can be applied to various domains:
-
-- **Circuit Verification:** Model and verify logical circuits
-- **Automated Planning:** Solve planning problems by translating them to logic formulas
-- **Software Verification:** Formal verification of software properties
-- **Constraint Satisfaction Problems:** Solve problems like graph coloring, Sudoku, etc.
 
 ## 👥 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
-## 📄 License
+2. Open a Pull Request
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
 ## 👨‍💻 Authors
 
