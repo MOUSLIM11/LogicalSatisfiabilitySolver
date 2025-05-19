@@ -187,9 +187,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👨‍💻 Authors
 
-- **LASFER MOHAMMED DJAWED**
-- **MOUSLIM ALI**
-- **HECHEHOUCHE ABOUBEKR**
+- **LASFER Mohammed Djawed**
+- **MOUSLIM Ali**
+- **HECHEHOUCHE Aboubakeur**
 
 Developed as part of the Advanced Logic course at École nationale Supérieure d'Informatique (ESI), 2024-2025.
 
